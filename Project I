@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            background-color: #ddd;
+            padding: 10px;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .about-me {
+            margin: 20px;
+        }
+        .about-me .box-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .box {
+            width: 150px;
+            height: 100px;
+            background-color: #f0f0f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+            cursor: pointer;
+        }
+        .portfolio {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        .portfolio-item {
+            width: 200px;
+            height: 150px;
+            background-color: #ccc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">Brand</a>
+        <a href="#">Header</a>
+        <a href="#">Biodata</a>
+        <a href="#">Portofolio</a>
+    </div>
+    <div class="header">
+        <div>
+            <h1>Halo, Selamat Datang di Websiteku</h1>
+            <p>Jadi semua informasi yang ada disini, itu merujuk tentang diriku.</p>
+            <button>Informasi Lebih Lanjut!</button>
+        </div>
+        <div>
+            <div style="width: 600px; height: 400px; background-color: #bbb; display: flex; align-items: center; justify-content: center;">
+                600 × 400
+            </div>
+        </div>
+    </div>
+    <div class="about-me">
+        <h2>Tentang Saya!</h2>
+        <p>Sekilas informasi tentang saya!</p>
+        <div class="box-container">
+            <div class="box">Muhammad Danau Azure Kaunimu</div>
+            <div class="box">Pendidikan : SMA</div>
+            <div class="box">Status : Pelajar</div>
+            <div class="box">Instagram : @danau.knm_</div>
+            <div class="box">Hobi : Membaca</div>
+            <div class="box">Domisili : Pasuruan</div>
+        </div>
+    </div>
+    <div class="portfolio">
+        <h2>Portofolio</h2>
+        <div class="portfolio-item">350 × 200</div>
+        <div class="portfolio-item">350 × 200</div>
+        <div class="portfolio-item">350 × 200</div>
+    </div>
+</body>
+</html>

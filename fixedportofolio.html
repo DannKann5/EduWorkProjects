@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <style>
+        #open {
+            margin-top: 3%;
+            position: relative;
+            margin-left: 3%;
+            font-family: Montserrat, sans-serif;
+            font-size: 18px;
+        }
+
+        #open button {
+            background-color: #3cc2c4;
+            color: #fff;
+            border: none;
+            padding: 2% 5%;
+            border-radius: 25px;
+            font-family: Montserrat, sans-serif;
+            cursor: pointer;
+            font-weight: 500;
+            transition: 0.2s;
+        }
+
+        #open button:hover {
+            background-color: #bbb;
+            color: white;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        #navbar {
+         display: grid;
+         grid-template-columns: auto 1fr;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        #navbar img {
+            height: 60px;
+        }
+
+        #navbut {
+            display: grid;
+            grid-auto-flow: column;
+            justify-content: end;
+            gap: 20px;
+        }
+
+        #navbar button {
+            display: grid;
+            grid-template-columns: repeat(3,1pr);
+            border: none;
+            margin: 0 20px;
+            padding: 10px 20px;
+            background-color: #3cc2c4;
+            border-radius: 25px;
+            color: #fff;
+            font-family: Montserrat, sans-serif;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+
+        #navbut button:hover {
+            cursor: pointer;
+            background-color: #bbb;
+        }
+
+        #navbut a {
+            text-decoration: none;
+        }
+
+        #navbar img {
+            display: flex;
+            justify-content: flex-start;
+            position: relative;
+            margin: 3px 20px;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .about-me {
+            margin: 20px;
+        }
+        .about-me .box-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .box {
+            width: 150px;
+            height: 100px;
+            margin: 0 15px;
+            background-color: #3cc2c4;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 25px;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+            cursor: pointer;
+        }
+        
+        .portfolio {
+            font-family: Montserrat, sans-serif;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        .portfolio-item {
+            width: 200px;
+            height: 150px;
+            background-color: #ccc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <img src="AzurifynoBg.png" alt="logo">
+        <div id="navbut">
+            <a href="#"><button>Header</button></a>
+            <a href="#"><button>Biodata</button></a>
+            <a href="#"><button>Portofolio</button></a>
+        </div>
+    </div>    
+    <div class="header">
+        <div id="open">
+            <h1>Hi, Welcome to My Portofolio!</h1>
+            <p>Semua hasil projek, pengalaman, dan <br> biodata saya ada disini</p>
+            <br>
+            <a href="#"><button>Pelajari lebih lanjut.</button></a>
+        </div>
+        <div>
+            <img style="height: 400px; width: 600px;" src="Muhammad Danau.png" alt="profile">
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="about-me">
+        <h2 style="font-family: Montserrat, sans-serif; font-size: 30px;">About Me</h2>
+        <p style="font-family: Montserrat, sans-serif; font-weight: 500;">A brief introduction about myself</p>
+        <br>
+        <div style="color: white; font-family: Montserrat, sans-serif; font-weight: 550;" class="box-container">
+            <div class="box">Muhammad Danau Azure Kaunimu</div>
+            <div class="box">SMA Progresif Bumi Shalawat</div>
+            <div class="box">Pelajar</div>
+            <div class="box">@danau.knm_</div>
+            <div class="box">Suka cobain hal baru</div>
+            <div class="box">Pasuruan, Jawa Timur, Indonesia</div>
+        </div>
+    </div>
+    <br>
+    <div class="portfolio">
+        <h2>Portofolio</h2>
+        <img class="portfolio-item" src="portofolio A.png">
+        <img class="portfolio-item" src="portofolio B.png">
+        <img class="portfolio-item" src="Portofolio C.png">
+    </div>
+</body>
+</html>
